@@ -15,8 +15,8 @@ return new class extends Migration
     {
         Schema::create('calculated_data', function (Blueprint $table) {
             $table->id();
-            $table->json('operation');
-            $table->string('result', 100);
+            $table->string('operation', 50);
+            $table->string('result', 50);
             $table->timestamps();
         });
     }

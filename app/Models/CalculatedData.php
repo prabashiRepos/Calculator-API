@@ -9,10 +9,6 @@ class CalculatedData extends Model
 {
     use HasFactory;
 
-    protected $casts = [
-        'operation' => 'json'
-    ];
-
     protected $fillable = [
         'operation', 'result'
     ];

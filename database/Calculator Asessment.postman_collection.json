@@ -1,0 +1,42 @@
+{
+	"info": {
+		"_postman_id": "84c3d009-c850-476c-b8f4-b8cb5db7e999",
+		"name": "Calculator Asessment",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "18718783"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"operation\": \"7+5\",\r\n    \"result\": 12\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/calculator",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"calculator"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
